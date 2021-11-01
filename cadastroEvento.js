@@ -1,6 +1,4 @@
 let nomeEvento = "Evento1";
-
-
 let dataAtual = new Date();
 let dataEvento = new Date(2021, 11, 09);
 let participante = "Marinaldo";
@@ -25,8 +23,6 @@ if (participantes.length < 100){
 } else {
     console.log("Cadastramento não permitido, Limite atingido")
 }
-
-
 
 let dia = String(dataEvento.getDate()).padStart(2, '0');
 let mes = String(dataEvento.getMonth() + 1).padStart(2, '0');
